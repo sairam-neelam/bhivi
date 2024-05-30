@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.amenities-header .title {
+  font-size: 36px;
+}
+
 .amenities-list {
   display: flex;
   justify-content: space-between;

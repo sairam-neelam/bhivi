@@ -1,0 +1,22 @@
+.space-listing {
+  margin: 36px 120px;
+}
+
+.space-listing-header {
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-listing-header .title {
+  font-size: 36px;
+}
+
+.spaces-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: relative;
+}
