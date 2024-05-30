@@ -1,0 +1,9 @@
+.amenities {
+  margin: 20px 120px;
+}
+
+.amenities-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+.landing-header {
+  display: flex;
+  height: 514px;
+  margin-top: 94px;
+}
+
+.landing-header-left {
+  width: 70%;
+  background-image: url(https://s3-alpha-sig.figma.com/img/52c7/11ca/a7402943a5d452a22b538e5551aa043a?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O0liGLASgUQLjxz0O7lJyDHGrfLxVt2026nQ0mGsM6dSRpcq3uYmh89Nw444C8nI1LQp1gm9r-1ZIPWeH7E33qYFJO~NOJcFfsh6so6pjvlKHuA5I0mochTcHWWF6G3cZYXO7aXpn8KPmhi-8qvfBxgz7x0SJk7cfa5TyyO8JQj9kRTveCDYcBOCki~5rn3ZU4b30zR3YP3Mog2MqIQt~LT6yGlX-J8qaYcIfmcAV-X3KSn0Idam6xIj4P6F3VpyUFDEk83vcGpvL-RWnxoLftcQmKSK3e3bUg3ocFncfsFCcVzMSnxTHNzKklCt6rObX~1SFqTAH5YeGrFe0jJDlw__);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-desc {
+  margin: 120px;
+  font-size: 58px;
+  line-height: 70px;
+  font-weight: 700;
+  backdrop-filter: blur(5px);
+}
+
+.landing-desc span {
+  color: #ffbb00;
+}
+
+.landing-header-right .landing-video {
+  height: 100%;
+}
