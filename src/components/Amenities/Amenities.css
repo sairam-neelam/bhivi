@@ -1,9 +1,36 @@
 .amenities {
-  margin: 20px 120px;
+  margin: 36px 120px;
 }
 
 .amenities-header {
+  font-size: 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.amenities-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: relative;
+}
+
+.amenity-card {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding: 24px;
+  width: 300px;
+  height: 80px;
+}
+
+.amenity-logo {
+  height: 32px;
+  width: 32px;
+}
+
+.amenity-name {
+  font-size: 18px;
 }
