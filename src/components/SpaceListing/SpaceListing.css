@@ -24,7 +24,7 @@
   position: relative;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .space-listing {
     margin: 20px;
   }
@@ -33,5 +33,14 @@
   }
   .space-listing-header .arrow {
     display: unset;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1120px) {
+  .space-listing {
+    margin: 40px;
+  }
+  .space-listing-header .title {
+    font-size: 30px;
   }
 }

@@ -5,11 +5,15 @@
 }
 
 .landing-header-left {
-  width: 70%;
+  width: 65%;
   background-image: url(https://s3-alpha-sig.figma.com/img/52c7/11ca/a7402943a5d452a22b538e5551aa043a?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O0liGLASgUQLjxz0O7lJyDHGrfLxVt2026nQ0mGsM6dSRpcq3uYmh89Nw444C8nI1LQp1gm9r-1ZIPWeH7E33qYFJO~NOJcFfsh6so6pjvlKHuA5I0mochTcHWWF6G3cZYXO7aXpn8KPmhi-8qvfBxgz7x0SJk7cfa5TyyO8JQj9kRTveCDYcBOCki~5rn3ZU4b30zR3YP3Mog2MqIQt~LT6yGlX-J8qaYcIfmcAV-X3KSn0Idam6xIj4P6F3VpyUFDEk83vcGpvL-RWnxoLftcQmKSK3e3bUg3ocFncfsFCcVzMSnxTHNzKklCt6rObX~1SFqTAH5YeGrFe0jJDlw__);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.landing-header-right {
+  width: 35%;
 }
 
 .landing-desc {
@@ -26,13 +30,16 @@
 
 .landing-header-right .landing-video {
   height: 100%;
+  width: 100%;
+  container-type: size;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .landing-header {
     display: flex;
     flex-direction: column-reverse;
     height: unset;
+    margin-top: 72px;
   }
   .landing-header-left {
     width: 100%;
@@ -44,7 +51,23 @@
     font-weight: 600;
     margin: 20px;
   }
+  .landing-header-right {
+    width: 100%;
+  }
   .landing-header-right .landing-video {
     width: 100%;
+    height: 320px;
+    container-type: size;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1120px) {
+  .landing-header {
+    height: 400px;
+  }
+  .landing-desc {
+    margin: 40px;
+    font-size: 40px;
+    line-height: 48px;
   }
 }

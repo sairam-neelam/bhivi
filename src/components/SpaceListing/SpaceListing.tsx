@@ -23,7 +23,7 @@ function SpaceListing() {
     <div className="space-listing">
       <div className="space-listing-header">
         <h1 className="title">Over Space Overview</h1>
-        <img src={Arrow} alt="arrow" />
+        <img className="arrow" src={Arrow} alt="arrow" />
       </div>
       <div className="spaces-list">
         {spacesData?.data?.map((item) => (

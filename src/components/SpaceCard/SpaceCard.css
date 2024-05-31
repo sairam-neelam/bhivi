@@ -163,7 +163,7 @@
   opacity: 60%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .space-card {
     width: 320px;
     height: 351px;
@@ -195,5 +195,11 @@
   .space-name {
     font-size: 18px;
     line-height: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  .space-card {
+    flex-grow: 1;
   }
 }
