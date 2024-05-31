@@ -43,3 +43,5 @@ export const AMENITIES: { name: string; logo: string }[] = [
     logo: Sports,
   },
 ];
+
+export const AMENITIES_TITLE = "Why Choose us?";

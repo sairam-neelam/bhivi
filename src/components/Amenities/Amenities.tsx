@@ -1,12 +1,12 @@
 import { Arrow } from "../../assets";
 import "./Amenities.css";
-import { AMENITIES } from "./constants";
+import { AMENITIES, AMENITIES_TITLE } from "./constants";
 
 function Amenities() {
   return (
     <div className="amenities">
       <div className="amenities-header">
-        <h1 className="title">Why Choose us?</h1>
+        <h1 className="title">{AMENITIES_TITLE}</h1>
         <img className="arrow" src={Arrow} alt="arrow" />
       </div>
       <div className="amenities-list">

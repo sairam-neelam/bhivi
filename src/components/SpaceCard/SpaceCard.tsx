@@ -1,7 +1,7 @@
 import { Chevron, Direction, Workspace } from "../../assets";
 import { ISpaceList } from "../../store/bhivi/types";
 import "./SpaceCard.css";
-import { IMAGE_URL } from "./constants";
+import { IMAGE_URL, SPACE_CARD } from "./constants";
 
 interface SpaceCardProps {
   details: ISpaceList;
@@ -14,7 +14,7 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ details }) => {
         <p className="space-name">{details?.name}</p>
         <div className="direction">
           <img className="direction-logo" src={Direction} alt="direction" />
-          <p className="distance">6 kms</p>
+          <p className="distance">{SPACE_CARD.DISTANCE}</p>
         </div>
       </div>
       <div className="image-container">
@@ -25,13 +25,13 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ details }) => {
         />
         <div className="badge">
           <img src={Workspace} alt="workspace-logo" />
-          <p className="badge-text">Workspace</p>
+          <p className="badge-text">{SPACE_CARD.WORKSPACE}</p>
         </div>
       </div>
       <div className="price-card-container">
         <div className="price-card">
           <div className="price-detail">
-            <p className="price-label">Day Pass</p>
+            <p className="price-label">{SPACE_CARD.DAY_PASS}</p>
             <p className="price">
               ₹ {details?.day_pass_price}
               <span className="price-label">/Day</span>
@@ -45,7 +45,7 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ details }) => {
         </div>
         <div className="price-card bulk-price-card">
           <div className="price-detail">
-            <p className="price-label">Bulk Pass</p>
+            <p className="price-label">{SPACE_CARD.BULK_PASS}</p>
             <p className="price">
               ₹{" "}
               {details?.day_pass_price * 10 -

@@ -3,3 +3,8 @@ export const GOOGLE_PLAY =
 
 export const APP_STORE =
   "https://s3-alpha-sig.figma.com/img/fa26/3152/f444a80f7c8d3dca67f560b63ad5ccb8?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=McGHZdpXkPd~p6VUZ~17FBRMz4wojfd0Eou49w5ZILJgxoFcr17ng25r0MqDSrfWZ2MmwLt0C6EAICVDZ6jL8vMPaJoMYLZkGdVeWbatox85TWUlrbbq02-xpWs85~HUv0gyvHhBBjr5-CDxpGJRRHRWKJP1FhG~-mEqIPfigD~nJxr4rHmfpMLisgOEe2UTMcZy2l1lyWGFgVcsX7Dg8~HH8wNMxbMQwjpSQ4lH6bNwaqy2Dwa7jNP5Rk6E53JpnRWBMfzBpn3ElMFoUfQybBFHiaD77ZXjaW4QpnhIyPC4yubhueY-L1pFpIp9Z1vvgJ4avHF3Igm~I6zUuLK6Bw__";
+
+export const FOOTER_BANNER = {
+  TITLE: "Download our app now",
+  DESC: " Boost your productivity with the BHIVE Workspace app. Elevate your workspace, collaborate efficiently, and unlock exclusive perks.",
+};
