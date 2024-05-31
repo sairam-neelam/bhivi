@@ -7,7 +7,7 @@ const FooterBanner = () => {
     <div className="footer-banner">
       <div className="footer-banner-header">
         <h1 className="title">Download our app now</h1>
-        <img src={Arrow} alt="arrow" />
+        <img className="arrow" src={Arrow} alt="arrow" />
       </div>
 
       <div>

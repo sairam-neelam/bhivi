@@ -13,9 +13,25 @@
   font-size: 36px;
 }
 
+.space-listing-header .arrow {
+  display: none;
+}
+
 .spaces-list {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
   position: relative;
+}
+
+@media (max-width: 600px) {
+  .space-listing {
+    margin: 20px;
+  }
+  .space-listing-header .title {
+    font-size: 24px;
+  }
+  .space-listing-header .arrow {
+    display: unset;
+  }
 }

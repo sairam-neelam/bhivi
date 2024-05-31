@@ -162,3 +162,38 @@
 .op-60 {
   opacity: 60%;
 }
+
+@media (max-width: 600px) {
+  .space-card {
+    width: 320px;
+    height: 351px;
+  }
+  .image-container {
+    height: 177px;
+    border-radius: 5px;
+  }
+  .price-card {
+    font-size: 8px;
+  }
+  .price {
+    font-size: 15px;
+  }
+  .price-label {
+    font-size: 12px;
+  }
+  .price .price-label {
+    font-size: 11px;
+  }
+  .direction {
+    height: 44px;
+    width: 44px;
+  }
+  .direction .direction-logo {
+    height: 15px;
+    width: 15px;
+  }
+  .space-name {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

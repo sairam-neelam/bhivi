@@ -34,7 +34,7 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ details }) => {
             <p className="price-label">Day Pass</p>
             <p className="price">
               ₹ {details?.day_pass_price}
-              <span className="price-label">/ Day</span>
+              <span className="price-label">/Day</span>
             </p>
           </div>
           <div>
@@ -52,7 +52,7 @@ const SpaceCard: React.FC<SpaceCardProps> = ({ details }) => {
                 details?.day_pass_price *
                   10 *
                   (details?.day_pass_discounts_percentage["10"].value / 100)}
-              <span className="price-label">/ 10 Days</span>
+              <span className="price-label">/10 Days</span>
             </p>
           </div>
           <div>

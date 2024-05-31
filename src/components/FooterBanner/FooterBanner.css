@@ -17,6 +17,10 @@
   font-size: 36px;
 }
 
+.footer-banner-header .arrow {
+  display: none;
+}
+
 .app-view-container {
   position: relative;
   display: flex;
@@ -52,4 +56,38 @@
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+@media (max-width: 600px) {
+  .footer-banner {
+    margin: 20px;
+    height: unset;
+  }
+  .footer-banner-header .title {
+    font-size: 24px;
+  }
+  .footer-banner-header .arrow {
+    display: unset;
+  }
+  .app-desc {
+    width: 100%;
+  }
+  .desc {
+    display: none;
+  }
+  .app-view-image {
+    width: 100%;
+    position: unset;
+    bottom: unset;
+    left: unset;
+  }
+  .app-view-container {
+    flex-direction: column-reverse;
+    gap: 12px;
+    height: 100%;
+    padding: 20px 12px;
+  }
+  .store-list {
+    justify-content: center;
+  }
 }

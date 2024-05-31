@@ -7,7 +7,7 @@ function Amenities() {
     <div className="amenities">
       <div className="amenities-header">
         <h1 className="title">Why Choose us?</h1>
-        <img src={Arrow} alt="arrow" />
+        <img className="arrow" src={Arrow} alt="arrow" />
       </div>
       <div className="amenities-list">
         {AMENITIES.map((el) => (
