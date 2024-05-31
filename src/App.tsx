@@ -11,12 +11,12 @@ const Home = lazy(() => import("./Pages/Home/Home"));
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/feed",
+      path: "/",
       element: <Home />,
     },
     {
       path: "*",
-      element: <Navigate to="/feed" />,
+      element: <Navigate to="/" />,
     },
   ]);
 
