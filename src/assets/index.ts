@@ -12,6 +12,7 @@ import Arrow from "./images/Arrow.svg";
 import Direction from "./images/direction.svg";
 import Workspace from "./images/Workspace.svg";
 import Chevron from "./images/chevron.svg";
+import AppView from "./images/AppView.svg";
 
 export {
   Logo,
@@ -28,4 +29,5 @@ export {
   Direction,
   Workspace,
   Chevron,
+  AppView,
 };
