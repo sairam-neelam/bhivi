@@ -15,8 +15,7 @@
 
 .spaces-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 45px;
   position: relative;
 }

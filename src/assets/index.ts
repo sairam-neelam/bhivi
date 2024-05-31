@@ -9,6 +9,9 @@ import Price from "./images/price.svg";
 import Sports from "./images/sports.svg";
 import Wifi from "./images/wifi.svg";
 import Arrow from "./images/Arrow.svg";
+import Direction from "./images/direction.svg";
+import Workspace from "./images/Workspace.svg";
+import Chevron from "./images/chevron.svg";
 
 export {
   Logo,
@@ -22,4 +25,7 @@ export {
   Sports,
   Wifi,
   Arrow,
+  Direction,
+  Workspace,
+  Chevron,
 };

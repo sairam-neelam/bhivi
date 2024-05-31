@@ -27,11 +27,11 @@ export interface ISpaceList {
   is_day_pass_enabled: boolean;
   day_pass_price: number;
   day_pass_discounts_percentage: {
-    1: {
+    "1": {
       value: number;
       message: string;
     };
-    10: {
+    "10": {
       value: number;
       message: string;
     };
@@ -53,6 +53,7 @@ export interface FetchSpacesListFailurePayload {
 
 export interface FetchSpacesListRequest {
   type: typeof FETCH_SPACES_LIST_REQUEST;
+  [key: string]: any;
 }
 
 export interface FetchSpacesListSuccess {
